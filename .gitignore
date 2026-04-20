@@ -1,0 +1,51 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Xcode playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# OS files
+.DS_Store
+*.swp
+*~
+._*
+.Spotlight-V100
+.Trashes
+
+# Archives & builds
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+
+# Code coverage
+*.gcno
+*.gcda
+
+# Provisioning profiles
+*.mobileprovision
+*.provisionprofile
+
+# Environment / secrets
+.env
+.env.*
