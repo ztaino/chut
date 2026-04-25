@@ -130,7 +130,7 @@ struct GamePlayScreen: View {
                         .background(vm.infoOpen ? Color.yellow.opacity(0.2) : Color.clear)
                         .cornerRadius(8)
                 }
-                .accessibilityLabel(vm.infoOpen ? "Masquer l'indice" : "Afficher l'indice")
+                .accessibilityLabel(vm.infoOpen ? Text("Masquer l'indice") : Text("Afficher l'indice"))
             }
 
             Text(card.mot)

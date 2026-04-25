@@ -3,7 +3,7 @@ import SwiftUI
 struct ResultScreen: View {
     @ObservedObject var vm: GameViewModel
 
-    private var resultMessage: String {
+    private var resultMessage: LocalizedStringResource {
         guard vm.totalRounds > 0 else { return "Continuez ! 💪" }
         if vm.correctCount == vm.totalRounds {
             return "Parfait ! 🏆"
@@ -66,7 +66,7 @@ struct ResultScreen: View {
     private func difficultyBadge(_ level: DifficultyLevel) -> some View {
         HStack(spacing: 6) {
             Text(level.emoji)
-            Text(level.label)
+            Text(LocalizedStringKey(level.label))
                 .font(.subheadline)
                 .fontWeight(.medium)
                 .foregroundColor(.white.opacity(0.7))

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var vm = GameViewModel()
+    @AppStorage("appLanguage") private var language: AppLanguage = .french
 
     var body: some View {
         ZStack {
@@ -23,6 +24,7 @@ struct ContentView: View {
             }
         }
         .preferredColorScheme(.dark)
+        .environment(\.locale, language.locale)
         .animation(.easeInOut(duration: 0.3), value: vm.screen)
         .animation(.easeInOut(duration: 0.15), value: vm.flash)
     }

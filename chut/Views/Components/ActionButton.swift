@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ActionButton: View {
     let emoji: String
-    let label: String
+    let label: LocalizedStringKey
     let bgColor: Color
     let borderColor: Color
     let textColor: Color

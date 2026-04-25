@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ScorePill: View {
-    let label: String
+    let label: LocalizedStringKey
     let bgColor: Color
     let borderColor: Color
     let textColor: Color

@@ -9,12 +9,12 @@ struct DifficultyCard: View {
             Text(level.emoji)
                 .font(.title2)
 
-            Text(level.label)
+            Text(LocalizedStringKey(level.label))
                 .font(.subheadline)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
 
-            Text(level.desc)
+            Text(LocalizedStringKey(level.desc))
                 .font(.caption2)
                 .foregroundColor(.white.opacity(0.55))
                 .lineLimit(2)

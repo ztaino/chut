@@ -3,6 +3,8 @@ import SwiftUI
 struct HomeScreen: View {
     @ObservedObject var vm: GameViewModel
     @State private var showRules = false
+    @AppStorage("appLanguage") private var language: AppLanguage = .french
+    @Environment(\.locale) private var locale
 
     private let columns = [
         GridItem(.flexible(), spacing: 12),
@@ -22,6 +24,15 @@ struct HomeScreen: View {
                 Spacer().frame(height: 20)
             }
             .padding(.horizontal, 20)
+        }
+        .overlay(alignment: .topLeading) {
+            Picker("Language", selection: $language) {
+                Text("FR").tag(AppLanguage.french)
+                Text("EN").tag(AppLanguage.english)
+            }
+            .pickerStyle(.segmented)
+            .frame(width: 90)
+            .padding(20)
         }
         .overlay(alignment: .topTrailing) {
             Button {
@@ -71,7 +82,7 @@ struct HomeScreen: View {
                         )
                     }
                     .buttonStyle(.plain)
-                    .accessibilityLabel("\(level.label), \(level.desc)")
+                    .accessibilityLabel(Text(LocalizedStringKey(level.label)) + Text(", ") + Text(LocalizedStringKey(level.desc)))
                     .accessibilityAddTraits(vm.difficulty == level.id ? .isSelected : [])
                 }
             }
@@ -100,10 +111,7 @@ struct HomeScreen: View {
                 .font(.title2)
                 .fontWeight(.bold)
 
-            (Text("Jouez en équipes ou en face à face. ")
-                + Text("Faites deviner le mot principal ")
-                + Text("sans utiliser").fontWeight(.bold)
-                + Text(" les mots interdits. Tapez 💡 pour voir la traduction et le contexte. Devinez le plus de mots possible avant la fin du chrono !"))
+            Text("Jouez en équipes ou en face à face. Faites deviner le mot principal **sans utiliser** les mots interdits. Tapez 💡 pour voir la traduction et le contexte. Devinez le plus de mots possible avant la fin du chrono !")
                 .font(.body)
                 .lineSpacing(4)
                 .multilineTextAlignment(.center)
@@ -138,8 +146,8 @@ struct HomeScreen: View {
 
     // MARK: - Helpers
 
-    private func sectionHeader(_ text: String) -> some View {
-        Text(text)
+    private func sectionHeader(_ key: LocalizedStringKey) -> some View {
+        Text(key)
             .font(.caption)
             .fontWeight(.semibold)
             .foregroundColor(.white.opacity(0.35))
@@ -171,7 +179,7 @@ struct HomeScreen: View {
                 .cornerRadius(10)
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("Durée \(option.label)")
+        .accessibilityLabel(String(localized: "Durée \(option.label)", locale: locale))
         .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 }

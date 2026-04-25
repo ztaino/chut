@@ -1,0 +1,448 @@
+{
+  "sourceLanguage" : "fr",
+  "strings" : {
+    ", " : {
+
+    },
+    "/%lld" : {
+
+    },
+    "%lld" : {
+
+    },
+    "← Changer le niveau" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Change level"
+          }
+        }
+      }
+    },
+    "← Quitter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Quit"
+          }
+        }
+      }
+    },
+    "⏰ Temps écoulé !" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏰ Time's up!"
+          }
+        }
+      }
+    },
+    "🇬🇧 En anglais" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🇬🇧 In English"
+          }
+        }
+      }
+    },
+    "✅ %lld correct" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld correct"
+          }
+        }
+      }
+    },
+    "💡" : {
+
+    },
+    "📋 Comment jouer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📋 How to play"
+          }
+        }
+      }
+    },
+    "📖 Contexte" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📖 Context"
+          }
+        }
+      }
+    },
+    "🤫 CHUT" : {
+
+    },
+    "🚫 %lld chut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🚫 %lld shh"
+          }
+        }
+      }
+    },
+    "🚫 MOTS INTERDITS" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🚫 FORBIDDEN WORDS"
+          }
+        }
+      }
+    },
+    "Afficher l'indice" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show hint"
+          }
+        }
+      }
+    },
+    "Argot, culture, nuances subtiles" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slang, culture, subtle nuances"
+          }
+        }
+      }
+    },
+    "Avancé" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advanced"
+          }
+        }
+      }
+    },
+    "Chut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shh"
+          }
+        }
+      }
+    },
+    "Commencer →" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start →"
+          }
+        }
+      }
+    },
+    "Compris !" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Got it!"
+          }
+        }
+      }
+    },
+    "Continuez ! 💪" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep going! 💪"
+          }
+        }
+      }
+    },
+    "Correct" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correct"
+          }
+        }
+      }
+    },
+    "Débutant" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beginner"
+          }
+        }
+      }
+    },
+    "Durée %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration %@"
+          }
+        }
+      }
+    },
+    "DURÉE DU TOUR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROUND LENGTH"
+          }
+        }
+      }
+    },
+    "EN" : {
+
+    },
+    "FAITES DEVINER :" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GET THEM TO GUESS:"
+          }
+        }
+      }
+    },
+    "FR" : {
+
+    },
+    "Intermédiaire" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermediate"
+          }
+        }
+      }
+    },
+    "Jouez en équipes ou en face à face. Faites deviner le mot principal **sans utiliser** les mots interdits. Tapez 💡 pour voir la traduction et le contexte. Devinez le plus de mots possible avant la fin du chrono !" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play in teams or face to face. Get your partner to guess the main word **without using** the forbidden words. Tap 💡 to see the translation and context. Guess as many words as you can before the timer runs out!"
+          }
+        }
+      }
+    },
+    "Language" : {
+
+    },
+    "Le jeu de tabou · en français" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The taboo game · in French"
+          }
+        }
+      }
+    },
+    "Masquer l'indice" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide hint"
+          }
+        }
+      }
+    },
+    "Mot deviné correctement" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Word guessed correctly"
+          }
+        }
+      }
+    },
+    "Mot interdit utilisé" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbidden word used"
+          }
+        }
+      }
+    },
+    "Natif" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Native"
+          }
+        }
+      }
+    },
+    "NIVEAU DE DIFFICULTÉ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DIFFICULTY"
+          }
+        }
+      }
+    },
+    "Parfait ! 🏆" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfect! 🏆"
+          }
+        }
+      }
+    },
+    "Passé" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skipped"
+          }
+        }
+      }
+    },
+    "Passer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        }
+      }
+    },
+    "Passer ce mot" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip this word"
+          }
+        }
+      }
+    },
+    "Quitter la partie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit game"
+          }
+        }
+      }
+    },
+    "Rejouer →" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play again →"
+          }
+        }
+      }
+    },
+    "Terminer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finish"
+          }
+        }
+      }
+    },
+    "Terminer la partie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finish game"
+          }
+        }
+      }
+    },
+    "Très bien ! 👏" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Great job! 👏"
+          }
+        }
+      }
+    },
+    "Vocabulaire courant, thèmes variés" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Common vocabulary, varied themes"
+          }
+        }
+      }
+    },
+    "Vocabulaire riche, expressions idiomatiques" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rich vocabulary, idioms"
+          }
+        }
+      }
+    },
+    "Vocabulaire simple, mots du quotidien" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple vocabulary, everyday words"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -3,7 +3,7 @@ import SwiftUI
 struct StatBox: View {
     let count: Int
     let icon: String
-    let label: String
+    let label: LocalizedStringKey
     let borderColor: Color
     let textColor: Color
 
